@@ -13,15 +13,14 @@ import java.util.Date;
 public class ViajeIncentivo extends Viaje{
     private String empresa;
 
-    public ViajeIncentivo(String empresa, String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada) {
+    public ViajeIncentivo( String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada, String empresa) {
         super(origen, destino, costo, fechaSalida, fechaLlegada);
         this.empresa = empresa;
     }
 
     @Override
     public String descripcion(){
-       return "ViajeIncentivo{" + "origen=" + getOrigen() + ", destino=" + getDestino() + ", costo=" + getCosto() + 
-               ", fechaSalida=" + getFechaSalida() + ", fechaLlegada=" + getFechaLlegada()+ "empresa=" + empresa + '}';
+       return "Viaje incentivo que te envia la empresa "+ empresa;
     }
 
     public String getEmpresa() {
@@ -34,7 +33,7 @@ public class ViajeIncentivo extends Viaje{
     
     @Override
     public String cualquierMetodo2(){
-        return "cualquierMetodo2 en Viaje Incentivo";
+        return "Método implementado en la clase hija viaje de incentivo";
     }  
         
 }

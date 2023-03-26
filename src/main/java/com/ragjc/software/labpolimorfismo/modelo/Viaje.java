@@ -60,16 +60,15 @@ public class Viaje {
     }
 
     public String descripcion(){
-       return "Viaje{" + "origen=" + origen + ", destino=" + destino + ", costo=" + costo + 
-               ", fechaSalida=" + fechaSalida + ", fechaLlegada=" + fechaLlegada + '}';
+       return "Disfruta tu viaje todo incluido";
     }
     
     public String cualquierMetodo(){
-        return "cualquierMetodo";
+        return "Cualquier método implementado en la clase base";
     }
     
     public String cualquierMetodo2(){
-        return "cualquierMetodo2";
+        return "Cualquier método2 implementado en la clase base";
     }
 
 }

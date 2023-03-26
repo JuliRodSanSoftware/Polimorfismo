@@ -13,13 +13,12 @@ import java.util.List;
 public class ClienteMain {
     static List<Viaje> viajes = new ArrayList<>();
     public static void main(String[] args) {
-        System.out.println("Hello World!");
         leerViajes();
         mostrarViajes();
     }
     
     public static void leerViajes(){
-        ViajeFamiliar viajeF = new ViajeFamiliar(0, "Popayán", "Cali", 0, new Date(), new Date());
+        ViajeFamiliar viajeF = new ViajeFamiliar( "Popayán", "Cali", 0, new Date(), new Date(), 0);
         viajes.add(viajeF);
     }
     

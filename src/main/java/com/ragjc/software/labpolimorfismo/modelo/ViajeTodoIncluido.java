@@ -18,7 +18,6 @@ public class ViajeTodoIncluido extends Viaje{
 
     @Override
     public String descripcion(){
-       return "ViajeTodoIncluido{" + "origen=" + getOrigen() + ", destino=" + getDestino() + ", costo=" + getCosto() + 
-               ", fechaSalida=" + getFechaSalida() + ", fechaLlegada=" + getFechaLlegada() + '}';
+       return "Disfruta tu viaje todo incluido";
     }
 }
